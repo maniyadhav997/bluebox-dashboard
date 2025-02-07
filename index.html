@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueBox Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="user-info">
+            <h2>Angelina Doe</h2>
+        </div>
+        <div class="menu-item">Dashboard</div>
+        <div class="menu-item">UI Elements</div>
+        <div class="menu-item">Components</div>
+        <div class="menu-item">Forms Staff</div>
+        <div class="menu-item">Data Table</div>
+        <div class="menu-item">Notes</div>
+        <div class="menu-item">Sample Page</div>
+        <div class="menu-item">Extra</div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Metrics -->
+        <div class="metrics-container">
+            <div class="metric-card">
+                <h3>Stock Total</h3>
+                <div class="metric-value">$150,000</div>
+                <div class="metric-increase">↑ 60%</div>
+            </div>
+            <div class="metric-card">
+                <h3>Total Profit</h3>
+                <div class="metric-value">$25,000</div>
+                <div class="metric-increase">↑ 30%</div>
+            </div>
+            <div class="metric-card">
+                <h3>Unique Visitors</h3>
+                <div class="metric-value">250,000</div>
+                <div class="metric-increase">↑ 80%</div>
+            </div>
+        </div>
+
+        <!-- Chart -->
+        <div class="chart-container">
+            <canvas id="performanceChart"></canvas>
+        </div>
+
+        <!-- Table -->
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Unit Type</th>
+                    <th>Joined</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table data populated via JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
