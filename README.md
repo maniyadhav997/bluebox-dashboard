@@ -3,7 +3,7 @@
 A simple and responsive **dashboard** with metrics, charts, and a data table.
 
 ## 🚀 Live Demo
-🔗 [BlueBox Dashboard](https://YOUR_USERNAME.github.io/bluebox-dashboard/)
+🔗 [BlueBox Dashboard](https://manikanta-blubox-dashboard.netlify.app/)
 
 ---
 
