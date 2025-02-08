@@ -13,7 +13,7 @@ A simple and responsive **dashboard** with metrics, charts, and a data table.
 ![Dashboard Screenshot](https://github.com/maniyadhav997/bluebox-dashboard/blob/70dec5755684c2ef7ce24aef967376d641097722/Screenshot%202025-02-07%20213525.png)
 
 ### 📌 Table View  
-![Table Screenshot](screenshots/table.png)
+![Table Screenshot](https://github.com/maniyadhav997/bluebox-dashboard/blob/efb5a7f18f1db791fbba666fd96653655a6e60c7/Screenshot%202025-02-07%20213620.png)
 
 ---
 
